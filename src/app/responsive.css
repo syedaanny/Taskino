@@ -1,6 +1,34 @@
+@media (min-width: 100px) and (max-width: 270px) {
+    .hero-section {
+        background: #EEfAFF;
+        height: auto;
+    }
+    
+    button.btn.signup-btn.btn-lg.rounded {
+        width: 47%;
+    }
+    
+    .review-box {
+        width: auto;
+    }
+    
+    img.review-img {
+        width: 82%;
+        padding-bottom: 0em;
+    }
+    
+    img.img-fluid.right-side-img-1.image {
+        display: none;
+    }
+    
+    img.googleplay-img {
+        width: 93%;
+    }
+}
 
 
-    @media (min-width: 310px) and (max-width: 614px) {
+
+    @media (min-width: 300px) and (max-width: 614px) {
         .right-images {
             display: none;
         }
@@ -112,10 +140,9 @@
         }
     
         .col.col-lg-5.col-md-6.left-side-col {
-            height: 55vh;
+            height: 75vh;
             margin-bottom: 7vh;
         }
-    
         .left-title-dec h1 {
             font-size: 2.15rem;
             line-height: 2.762rem;
@@ -149,17 +176,7 @@
             padding: 0em 0em 0.31em 0em;
         }
     
-        /* .mobile-background {
-        display: block;
-        width: 100vw;
-        height: 83vh;
-        background-image: url(/img/mobile-bg.svg);
-        background-color: white;
-        object-fit: cover;
-        position: absolute;
-        background-repeat: no-repeat;
-        background-size: 102% 34%;
-    } */
+       
         .col.col-lg-7.right-side {
             width: 100vw;
         }
@@ -168,11 +185,9 @@
             width: 100vw;
             position: relative;
             display: block;
-            height: 47vh;
+            height: 71vh;
             background-color: white;
-            
         }
-    
         img.hero-mobile-svg {
             position: absolute;
             display: none;
@@ -293,7 +308,7 @@
             background-image: url(/img/mobile-bg.png);
             background-size: 100% 50%;
             background-repeat: no-repeat;
-            height: 50vh;
+            height: 61vh;
         }
     
         img.hero-mobile-svg {
