@@ -6,7 +6,7 @@
     
     button.btn.signup-btn.btn-lg.rounded {
         width: 47%;
-            background-color: #0099ff!important;
+            background-color: #0099ff;
     }
     
     .review-box {
@@ -379,7 +379,7 @@
         .signup-btn {
             font-size: 1rem;
             margin-right: 0.3em;
-            background-color: #0099ff!important;
+            background-color: #0099ff;
         }
     
         img.review-img {
